@@ -560,8 +560,8 @@
 			baseConfigurationReference = 52FF1DDEB3C5B731A52F6A24 /* Pods-Refugeewalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9D23QJ635;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = YH5Q937JE3;
 				INFOPLIST_FILE = Refugeewalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -569,6 +569,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = be.vluchtelingenwerk.RefugeeWalk.Refugeewalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "51970e7a-41a5-4d74-9191-3c7d3701626b";
+				PROVISIONING_PROFILE_SPECIFIER = multec_1718;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -579,8 +581,8 @@
 			baseConfigurationReference = C8CFF32FAAE472B257960A7C /* Pods-Refugeewalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9D23QJ635;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = YH5Q937JE3;
 				INFOPLIST_FILE = Refugeewalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -588,6 +590,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = be.vluchtelingenwerk.RefugeeWalk.Refugeewalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "51970e7a-41a5-4d74-9191-3c7d3701626b";
+				PROVISIONING_PROFILE_SPECIFIER = multec_1718;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
